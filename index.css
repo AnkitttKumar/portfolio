@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Kanit:ital,wght@1,200&family=Roboto+Slab:wght@200;300;400&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Kanit:ital,wght@1,200&family=Roboto+Slab:wght@200;300;400&family=Source+Sans+Pro:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Kanit:ital,wght@1,200&family=Roboto+Slab:wght@200;300;400&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300&family=Ubuntu&display=swap');
+
+.sidebar{
+    background-color: rgb(91, 59, 109);
+    font-family: 'Albert Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+    position: absolute;
+    width: 220px;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar nav{
+    padding: 60px;
+    height: 100vh;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    width: 100vw;
+    height: 48vw;
+}
+.infoContainer{
+   
+    background-color: rgb(5, 0, 7);
+    height: 70vh;
+    margin: auto;
+    margin-top: 100px;
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    
+}
+.devInfo{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.hello{
+    font-size: 60px;
+}
+.devName{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Albert Sans', sans-serif;
+}
+.devAbout{
+    font-size: 35px;
+
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.buttons button{
+    margin: 15px 5px;
+    font-size: 15px;
+    padding: 7px 14px ; 
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(213, 202, 235);
+    background-color: rgb(18, 3, 32);
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: rgb(18, 3, 32);
+    background-color: rgb(213, 202, 235);
+}
+
+.devPic img{
+    width: 335px;
+    
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.main{
+    background-color: rgb(156, 123, 199);
+    width: 100vw;
+}
+.container{
+    display: flex;
+}
+
+
+
+/*contact */
+
+
+.contactForm{
+    padding-top: 100px;
+    font-family: 'Albert Sans', sans-serif;
+    padding-left: 40px;
+
+}
+.contactForm h1{
+    margin-left: 370px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 12px 0;
+    
+}
+.contactForm form div{
+    margin-left: 100px;
+    padding: 8px 0;
+    display:  flex;
+    flex-direction: column;
+    width: 25vw;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.contactForm form div input{
+    width: 8px 0;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 2px;
+
+}
+/*\form */
+
+ 
+.form-check{
+    display:  flex;
+    flex-direction: row !important;
+
+}
+
+.form-check-input{
+    width: 24px;
+    margin: 9px 0;
+}
+
+.btns{
+    width: 55px;
+    margin: 3px 0;
+    font-weight: bold;
+    color: rgb(213, 202, 235);
+    background-color: rgb(18, 3, 32);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+
+
+#emailHelp{
+    font-size: 10px;
+    color: rgb(99, 4, 4);
+    margin: 0 5px;
+}
+
+
+/*blogs*/
+.blogitem{
+    margin: 20px;
+    font-family: 'Albert Sans', sans-serif;
+}
+.blogContainer{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.blogContainer h1{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.blogitem h2{
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+}
+.blogitem h3{
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.devintro h2{
+    
+    font-family: 'Albert Sans', sans-serif;
+    margin: 18px;
+}
+.devintro p{
+    margin: 20px;
+    
+}
+.devintro{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.skillItems{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.skillContainer{
+    padding: 20px;
+    
+
+}
+
+.HTML{
+    width: 256px;
+    height: 6px;
+    background-color: green;
+    
+}
+.full{
+    width: 256px;
+    height: 6px;
+    background-color: green;
+    
+}
+.fifty{
+    width: 128px;
+    height: 6px;
+    background-color: rgb(240, 83, 11);
+}
+.seventy{
+    width: 200px;
+    height: 6px;
+    background-color: rgb(9, 199, 25);
+}
+.eigthy{
+    width: 230px;
+    height: 6px;
+    background-color: rgb(154, 247, 5);
+}
+.fourty{
+    width: 100px;
+    height: 6px;
+    background-color: rgb(247, 11, 3);
+}
+
+.yetTo{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+@media (max-width: 750px ) {
+    
+    .devPic{
+        display: none;
+    }
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.ham{
+    margin-top: 15px;
+}
+.cross{
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+/*social handles footers//
+.
+*/
+.space{
+    padding:1%;
+}
+
+.iconLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.iconLogo{
+    width: 25px;
+}
+
+.linkedIn{
+    width: 40px;
+}
